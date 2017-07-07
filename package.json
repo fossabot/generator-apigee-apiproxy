@@ -1,0 +1,75 @@
+{
+  "name": "generator-apigee-apiproxy",
+  "version": "0.0.0",
+  "description": "Scaffold an API proxy with quality gates for Swagger, (optional) Javascript callouts, and automated build, lint, test, API documentation, packaging, and deployment to your Apigee EDGE domain of choice.",
+  "homepage": "https://github.com/gregswindle/generator-apigee-apiproxy",
+  "author": {
+    "name": "Swindle, Gregory Jay (Greg)",
+    "email": "gregory.jay.swindle@verizon.com",
+    "url": "https://github.com/gregswindle"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman",
+    "yeoman-generator",
+    "generator-apigee",
+    "apigee",
+    "api",
+    "api-proxy",
+    "api-mocks",
+    "api-proxy-mocks",
+    "ci",
+    "cd",
+    "automation",
+    "swagger",
+    "openapi",
+    "open-api",
+    "best-practices",
+    "qa",
+    "testing"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0",
+    "nsp": "^2.6.3",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "lint": "npm run eslint:stylish",
+    "security": "nsp check --output summary",
+    "pretest": "npm run lint",
+    "posttest": "npm run security",
+    "swagger:lint": "swagger validate *.swagger.yaml --debug && swagger validate *.swagger.json --debug",
+    "eslint:html": "./node_modules/.bin/eslint -c ./.eslintrc.yml -f html lib/**/*.js --fix > ./eslint-report.html",
+    "eslint:stylish": "./node_modules/.bin/eslint -c ./.eslintrc.yml lib/**/*.js --fix",
+    "pretest": "npm run lint",
+    "test": "jest --config=jest.config.json",
+    "posttest": "npm run security"
+
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "https://github.com/gregswindle/generator-apigee-apiproxy.git",
+  "license": "Apache-2.0"
+}

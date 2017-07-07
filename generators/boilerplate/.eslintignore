@@ -1,0 +1,16 @@
+__tests__/fixture/**
+__tests__/fixtures/**
+*.bundle.js
+*.md
+*.min.js
+*.spec.js
+*.test.js
+/apiproxy/resources/jsc/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixture/**
+/tests/performance/**
+/tmp/**
