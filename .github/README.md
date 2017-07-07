@@ -14,12 +14,12 @@ gates and manage change consistently.
 
 ---
 
-[Apache-2.0][license-url] © [`gregswindle`][gregswindle-url]
+[Apache-2.0][license-url] © [Greg Swindle][gregswindle-url]
 
 [code-of-conduct-url]: CODE_OF_CONDUCT.md
 [contributing-url]: CONTRIBUTING.md
 [contributor-covenant-version-url]: http://contributor-covenant.org/version/1/4/
 [issue-template-url]: ISSUE_TEMPLATE.md
-[license-url]: LICENSE.md
+[license-url]: ../LICENSE
 [pull-request-template-url]: PULL_REQUEST_TEMPLATE.md
 [gregswindle-url]: https://github.com/gregswindle
