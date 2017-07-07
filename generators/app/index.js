@@ -30,6 +30,10 @@ module.exports = class extends Generator {
         );
     }
 
+    default() {
+        this.composeWith(require.resolve('../nsp'));
+    }
+
     install() {
         this.installDependencies();
     }
