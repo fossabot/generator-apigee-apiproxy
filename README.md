@@ -248,7 +248,7 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 
 [Apache-2.0][license-url] © [Greg Swindle][author-url]
 
-[api-docs-url]: https://github.com/gregswindle/denominator/docs/API.md
+[api-docs-url]: https://github.com/gregswindle/generator-apigee-apiproxy/docs/API.md
 [author-url]: https://github.com/gregswindle
 [bithound-dep-img]: https://www.bithound.io/github/gregswindle/generator-apigee-apiproxy/badges/dependencies.svg
 [bithound-dep-url]: https://www.bithound.io/github/gregswindle/generator-apigee-apiproxy/master/dependencies/npm
@@ -258,19 +258,19 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [codacy-url]: https://www.codacy.com/app/greg_7/generator-apigee-apiproxy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gregswindle/generator-apigee-apiproxy&amp;utm_campaign=Badge_Grade
 [code-of-conduct-url]: ./.github/CODE_OF_CONDUCT.md
 [complexity-report-url]: https://github.com/escomplex/complexity-report
-[coveralls-image]: https://coveralls.io/repos/gregswindle/denominator/badge.svg
+[coveralls-image]: https://coveralls.io/repos/gregswindle/generator-apigee-apiproxy/badge.svg
 [coveralls-img]: https://coveralls.io/repos/github/gregswindle/generator-apigee-apiproxy/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/gregswindle/generator-apigee-apiproxy?branch=master
-[coveralls-url]: https://coveralls.io/r/gregswindle/denominator
-[daviddm-image]: https://david-dm.org/gregswindle/denominator.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/gregswindle/denominator
+[coveralls-url]: https://coveralls.io/r/gregswindle/generator-apigee-apiproxy
+[daviddm-image]: https://david-dm.org/gregswindle/generator-apigee-apiproxy.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/gregswindle/generator-apigee-apiproxy
 [eslint-dev-env-url]: http://eslint.org/docs/developer-guide/development-environment
 [greenkeeper-img]: https://badges.greenkeeper.io/gregswindle/generator-apigee-apiproxy.svg?style=flat-square
 [greenkeeper-url]: https://greenkeeper.io/
 [inch-ci-img]: http://inch-ci.org/github/gregswindle/generator-apigee-apiproxy.svg?branch=master
 [inch-ci-url]: http://inch-ci.org/github/gregswindle/generator-apigee-apiproxy
 [issues-new-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues/new
-[issues-url]: https://github.com/gregswindle/denominator/issues
+[issues-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues
 [issues-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues
 [js-callout-docs-url]: ./docs/README.md
 [jsdoc-url]: http://usejsdoc.org/
@@ -278,11 +278,11 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [license-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat
 [license-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat
 [license-url]: ./LICENSE
-[npm-image]: https://badge.fury.io/js/denominator.svg
-[npm-url]: https://npmjs.org/package/denominator
+[npm-image]: https://badge.fury.io/js/generator-apigee-apiproxy.svg
+[npm-url]: https://npmjs.org/package/generator-apigee-apiproxy
 [nsp-img]: https://nodesecurity.io/orgs/gregswindle/projects/a3912719-529f-457f-9ff6-53fa70d8f475/badge
 [nsp-url]: https://nodesecurity.io/orgs/gregswindle/projects/a3912719-529f-457f-9ff6-53fa70d8f475
-[pr-url]: https://github.com/gregswindle/denominator/pulls
+[pr-url]: https://github.com/gregswindle/generator-apigee-apiproxy/pulls
 [pr-url]: https://github.com/gregswindle/generator-apigee-apiproxy/pulls
 [readme-score-img]: http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/gregswindle/generator-apigee-apiproxy
 [readme-score-url]: http://clayallsopp.github.io/readme-score?url=https://github.com/gregswindle/generator-apigee-apiproxy
@@ -307,7 +307,7 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [swagger-markdown-url]: https://github.com/syroegkin/swagger-markdown
 [swagger-validity-img]: https://img.shields.io/swagger/valid/2.0/http/api.swindle.net/cordova/v6/contacts/openapi.json.svg
 [swagger-validity-url]: http://online.swagger.io/validator/debug?url=http://api.swindle.net/cordova/v6/contacts/openapi.json
-[travis-image]: https://travis-ci.org/gregswindle/denominator.svg?branch=master
+[travis-image]: https://travis-ci.org/gregswindle/generator-apigee-apiproxy.svg?branch=master
 [travis-image]: https://travis-ci.org/gregswindle/generator-apigee-apiproxy.svg?branch=master
 [travis-url]:  https://travis-ci.org/gregswindle/generator-apigee-apiproxy
-[travis-url]: https://travis-ci.org/gregswindle/denominator
+[travis-url]: https://travis-ci.org/gregswindle/generator-apigee-apiproxy
