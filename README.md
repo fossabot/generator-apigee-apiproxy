@@ -1,6 +1,7 @@
 #  `generator-apigee-apiproxy`
 
-[![Build Status][travis-image]][travis-url] [![Sonar coverage][sonar-coverage-img]][sonar-coverage-url] [![Quality Gate][sonar-gate-img]][sonar-gate-url] [![Complexity][sonar-complexity-img]][sonar-complexity-url]<br>
+[![Build Status][travis-image]][travis-url] [![Sonar coverage][sonar-coverage-img]][sonar-coverage-url] [![Quality Gate][sonar-gate-img]][sonar-gate-url] [![Complexity][sonar-complexity-img]][sonar-complexity-url][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fgregswindle%2Fgenerator-apigee-apiproxy.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fgregswindle%2Fgenerator-apigee-apiproxy?ref=badge_shield)
+<br>
 [![NSP Status][nsp-img]][nsp-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status](https://david-dm.org/gregswindle/generator-apigee-apiproxy/dev-status.svg)](https://david-dm.org/gregswindle/generator-apigee-apiproxy?type=dev)<br>[![NPM version][npm-image]][npm-url] [![Readme Score][readme-score-img]][readme-score-url]
 > ![Swagger logo][swagger-logo-20-img] Scaffold an API proxy with quality gates for Swagger, (optional) Javascript callouts, and automated build, lint, test, API documentation, packaging, and deployment to your Apigee EDGE domain of choice.
 
@@ -311,3 +312,6 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [travis-image]: https://travis-ci.org/gregswindle/generator-apigee-apiproxy.svg?branch=master
 [travis-url]:  https://travis-ci.org/gregswindle/generator-apigee-apiproxy
 [travis-url]: https://travis-ci.org/gregswindle/generator-apigee-apiproxy
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fgregswindle%2Fgenerator-apigee-apiproxy.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fgregswindle%2Fgenerator-apigee-apiproxy?ref=badge_large)
