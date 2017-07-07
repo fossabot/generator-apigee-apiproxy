@@ -9,7 +9,7 @@ Add media files to the one of `.assets/media/`'s sub-directories based on the me
 
 ---
 
-[Apache-2.0][license-url] © [`gregswindle`][gregswindle-url]
+[Apache-2.0][license-url] © [Greg Swindle][gregswindle-url]
 
-[license-url]: https://github.com/gregswindle/LICENSE.md
+[license-url]: https://www.apache.org/licenses/LICENSE-2.0
 [gregswindle-url]: https://github.com/gregswindle

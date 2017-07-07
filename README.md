@@ -1,6 +1,7 @@
 #  `generator-apigee-apiproxy`
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![Build Status][travis-image]][travis-url] [![Sonar coverage][sonar-coverage-img]][sonar-coverage-url] [![Quality Gate][sonar-gate-img]][sonar-gate-url] [![Complexity][sonar-complexity-img]][sonar-complexity-url]<br>
+[![NSP Status][nsp-img]][nsp-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status](https://david-dm.org/gregswindle/generator-apigee-apiproxy/dev-status.svg)](https://david-dm.org/gregswindle/generator-apigee-apiproxy?type=dev)<br>[![NPM version][npm-image]][npm-url] [![Readme Score][readme-score-img]][readme-score-url]
 > ![Swagger logo][swagger-logo-20-img] Scaffold an API proxy with quality gates for Swagger, (optional) Javascript callouts, and automated build, lint, test, API documentation, packaging, and deployment to your Apigee EDGE domain of choice.
 
 `generator-apigee-apiproxy` creates a base template to start a new API Proxy with optional tools for custom Javascript callouts. It generates a repeatable, testable, and measurable workflow that lets you focus on innovation without sacrificing quality or extensibility.
@@ -258,7 +259,6 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [codacy-url]: https://www.codacy.com/app/greg_7/generator-apigee-apiproxy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gregswindle/generator-apigee-apiproxy&amp;utm_campaign=Badge_Grade
 [code-of-conduct-url]: ./.github/CODE_OF_CONDUCT.md
 [complexity-report-url]: https://github.com/escomplex/complexity-report
-[coveralls-image]: https://coveralls.io/repos/gregswindle/generator-apigee-apiproxy/badge.svg
 [coveralls-img]: https://coveralls.io/repos/github/gregswindle/generator-apigee-apiproxy/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/gregswindle/generator-apigee-apiproxy?branch=master
 [coveralls-url]: https://coveralls.io/r/gregswindle/generator-apigee-apiproxy

@@ -14,7 +14,7 @@ gates and manage change consistently.
 
 ---
 
-[Apache-2.0][license-url] © [`gregswindle`][gregswindle-url]
+[Apache-2.0][license-url] © [Greg Swindle][gregswindle-url]
 
 [code-of-conduct-url]: https://github.com/gregswindle/.github/CODE_OF_CONDUCT.md
 [contributing-url]: https://github.com/gregswindle/.github/CONTRIBUTING.md
