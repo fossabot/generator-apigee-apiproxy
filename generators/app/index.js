@@ -1,9 +1,9 @@
 
-const Generator = require('yeoman-generator');
+const YoemanGenerator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
 
-module.exports = class extends Generator {
+module.exports = class extends YoemanGenerator {
     prompting() {
     // Have Yeoman greet the user.
         this.log(yosay(
@@ -28,6 +28,10 @@ module.exports = class extends Generator {
             this.templatePath('dummyfile.txt'),
             this.destinationPath('dummyfile.txt')
         );
+    }
+
+    default() {
+        this.composeWith(require.resolve('../nsp'));
     }
 
     install() {
