@@ -1,8 +1,8 @@
 'use strict';
 const _ = require('lodash');
-const Generator = require('yeoman-generator');
+const YoemanGenerator = require('yeoman-generator');
 
-module.exports = class extends Generator {
+module.exports = class extends YoemanGenerator {
   constructor(args, options) {
     super(args, options);
 

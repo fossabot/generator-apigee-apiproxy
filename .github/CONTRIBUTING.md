@@ -1,15 +1,12 @@
 # Contributing to `generator-apigee-apiproxy`
-
-> Contributions are stories with a beginning, a middle, and an end, all told through JIRA issues and Git pull requests.
+> [![PRs Welcome][makeapullrequest-image]][makeapullrequest-url] Contributions are stories with a beginning, a middle, and an end, all told through issues, comments, and pull requests.
 
 ## 1. Table of contents
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [1. Table of contents](#1-table-of-contents)
-- [2. User Stories and sub-tasks](#2-user-stories-and-sub-tasks)
+- [2. "User Story" issues and defects](#2-user-story-issues-and-defects)
 - [3. Topic branches](#3-topic-branches)
-	- [3.1. Step-by-step instructions: create a topic branch](#31-step-by-step-instructions-create-a-topic-branch)
-	- [3.2. Valid branch prefix names](#32-valid-branch-prefix-names)
 - [4. Pull requests (PRs)](#4-pull-requests-prs)
 - [5. `conventional commit messages` and change `types`](#5-conventional-commit-messages-and-change-types)
 	- [5.1. `build` commit messages](#51-build-commit-messages)
@@ -30,8 +27,7 @@
 <!-- /TOC -->
 
 ## 2. "User Story" issues and defects
-
-> Assign yourself an open [User Story issue] or [defect] to begin collaboration.
+> [Submit a new issue][issues-new-url] or [assign yourself an open issue][issues-url] to begin collaboration.
 
 Contributions start with clear communication, and issues – not e-mails! – are the best way to collaborate with colleagues.
 
@@ -94,21 +90,22 @@ The following branch prefixes are allowed.
 > :microscope: Not sure whether your branch name will be rejected? [Test your branch name][branch-name-test-url] against the regular expressions below in a Web browser.
 
 ## 4. Pull requests (PRs)
-
-> Submit a pull request (PR) immediately after your first push to `origin`.
+> [Submit a pull request (PR)][pr-url] immediately after your first push to `origin`.
 
 4.1. Open GitHub in a Web browser and select your topic branch.
 
-4.2. Give your pull request a
+4.2. Follow the instructions in the pull request template and submit it. 
 
-* Title
-* Description
-* Reviewers (add at least two members from the core team)
+> #### :raising_hand: Working on your first Pull Request?
+>
+> You can learn how from this *free* series
+> [How to Contribute to an Open Source Project on GitHub][pr-course-url].
 
 ## 5. `conventional commit messages` and change `types`
-> This project enforces _[AngularJS Git Commit Guidelines][git-commit-guidelines-url]_ (aka [`conventional commit messages`][git-commit-guidelines-url]) with [`commitplease`][commitplease-url] pre-commit hooks.
+
+This project enforces [AngularJS Git Commit Guidelines][git-commit-guidelines-url] (aka [`conventional commit messages`][git-commit-guidelines-url]) with [`commitplease`][commitplease-url] pre-commit hooks.
 >
-> This not only results in consistent, legible Git logs, but also enables automated CHANGELOG generation and semantic versioning with [`standard-version`][standard-version-url].
+> Consistent, legible Git logs not only facilitate communication, but also enable automated CHANGELOG generation and semantic versioning with [`standard-version`][standard-version-url].
 
 ### 5.1. `build` commit messages
 
@@ -265,7 +262,9 @@ Heres' a [table of `generator-apigee-apiproxy's` ESLint rules][eslint-rules-tabl
 
 ### 6.2. Testing
 
-> Write specs (i.e., unit tests). Behavior-driven development specifications are executable documentation. By the way, 100% code coverage is the norm, not the exception.
+> ##### :100: Write specs (i.e., unit tests).
+>
+> Behavior-driven development specifications are executable documentation. By the way, 100% code coverage is the norm, not the exception.
 
 Open a terminal and run
 
@@ -281,20 +280,21 @@ Thank you for contributing, and welcome to the community!
 
 2017, [Greg Swindle](mailto:gregory.jay.swindle@verizon.com).
 
-[eslint-rules-table-url]: ESLINT_RULES.md
+
 [bdd-url]: https://en.wikipedia.org/wiki/Behavior-driven_development
 [behat-url]: http://behat.org/en/latest/
 [branch-name-test-url]: https://regex101.com/
 [commitplease-url]: https://www.npmjs.com/package/commitplease
+[eslint-rules-table-url]: ESLINT_RULES.md
 [git-commit-guidelines-url]: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
-[jira-dp-epic-url]: https://onejira.verizon.com/secure/RapidBoard.jspa?rapidView=46863&projectKey=ONEAPI&view=planning.nodetail&selectedEpic=ONEAPI-120
+[issues-new-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues/new
+[issues-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues
 [label-status-available-url]: ../labels/Status%3A%20Available
 [lint-software-url]: https://en.wikipedia.org/wiki/Lint_(software)
+[makeapullrequest-image]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[makeapullrequest-url]: http://makeapullrequest.com
 [new-issue-url]: https://oneconfluence.verizon.com/x/So_PCw
 [php-codesniffer-url]: https://github.com/squizlabs/ESLint
-[readme-jira-issue-create-branch-image]: ./assets/img/readme-jira-issue-create-branch.png
-[readme-bitbucket-create-branch-image]: ./assets/img/readme-bitbucket-create-branch.png
-[readme-bitbucket-create-pr-image]: ./assets/img/readme-bitbucket-create-pr-inputs.png
-[readme-bitbucket-create-pr-inputs-image]: ./assets/img/readme-bitbucket-create-pr.png
-[readme-jira-issue-select-repo-topic-image]: ./assets/img/readme-jira-issue-select-repo-topic.png
+[pr-course-url]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
+[pr-url]: https://github.com/gregswindle/generator-apigee-apiproxy/pulls
 [standard-version-url]: https://github.com/conventional-changelog/standard-version

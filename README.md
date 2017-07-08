@@ -1,7 +1,7 @@
 #  `generator-apigee-apiproxy`
 
 [![Build Status][travis-image]][travis-url] [![Sonar coverage][sonar-coverage-img]][sonar-coverage-url] [![Quality Gate][sonar-gate-img]][sonar-gate-url] [![Complexity][sonar-complexity-img]][sonar-complexity-url]<br>
-[![NSP Status][nsp-img]][nsp-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status](https://david-dm.org/gregswindle/generator-apigee-apiproxy/dev-status.svg)](https://david-dm.org/gregswindle/generator-apigee-apiproxy?type=dev)<br>[![NPM version][npm-image]][npm-url] [![Readme Score][readme-score-img]][readme-score-url]
+[![NSP Status][nsp-img]][nsp-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependencies Status](https://david-dm.org/gregswindle/generator-apigee-apiproxy/dev-status.svg)](https://david-dm.org/gregswindle/generator-apigee-apiproxy?type=dev)<br>[![NPM version][npm-image]][npm-url] [![Readme Score][readme-score-img]][readme-score-url] [![PRs Welcome][makeapullrequest-image]][makeapullrequest-url]
 > ![Swagger logo][swagger-logo-20-img] Scaffold an API proxy with quality gates for Swagger, (optional) Javascript callouts, and automated build, lint, test, API documentation, packaging, and deployment to your Apigee EDGE domain of choice.
 
 `generator-apigee-apiproxy` creates a base template to start a new API Proxy with optional tools for custom Javascript callouts. It generates a repeatable, testable, and measurable workflow that lets you focus on innovation without sacrificing quality or extensibility.
@@ -238,12 +238,13 @@ $ npm run release
 
 ## 4. Contribute
 
+[![PRs Welcome][makeapullrequest-image]][makeapullrequest-url]
+
 :family: We welcome contributors and pull requests. Check out the guidelines for [contributing to `generator-apigee-apiproxy`](./.github/CONTRIBUTING.md) and our [Contributor Covenant Code of Conduct][code-of-conduct-url].
 
 Contributions are stories with a beginning, a middle, and an end, all told through issues and pull requests.
  * [Peruse open issues][issues-url] or
  * [Open a new pull request (PR)][pr-url]
-
 
 ## 5. License
 
@@ -271,18 +272,18 @@ Contributions are stories with a beginning, a middle, and an end, all told throu
 [inch-ci-url]: http://inch-ci.org/github/gregswindle/generator-apigee-apiproxy
 [issues-new-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues/new
 [issues-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues
-[issues-url]: https://github.com/gregswindle/generator-apigee-apiproxy/issues
 [js-callout-docs-url]: ./docs/README.md
 [jsdoc-url]: http://usejsdoc.org/
 [jsdoc2md-url]: https://github.com/jsdoc2md/jsdoc-to-markdown
 [license-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat
 [license-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat
 [license-url]: ./LICENSE
+[makeapullrequest-image]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat
+[makeapullrequest-url]: http://makeapullrequest.com
 [npm-image]: https://badge.fury.io/js/generator-apigee-apiproxy.svg
 [npm-url]: https://npmjs.org/package/generator-apigee-apiproxy
 [nsp-img]: https://nodesecurity.io/orgs/gregswindle/projects/a3912719-529f-457f-9ff6-53fa70d8f475/badge
 [nsp-url]: https://nodesecurity.io/orgs/gregswindle/projects/a3912719-529f-457f-9ff6-53fa70d8f475
-[pr-url]: https://github.com/gregswindle/generator-apigee-apiproxy/pulls
 [pr-url]: https://github.com/gregswindle/generator-apigee-apiproxy/pulls
 [readme-score-img]: http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/gregswindle/generator-apigee-apiproxy
 [readme-score-url]: http://clayallsopp.github.io/readme-score?url=https://github.com/gregswindle/generator-apigee-apiproxy
